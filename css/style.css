@@ -36,7 +36,7 @@ body {
 	height: 100%;
 	font-family: "Mulish", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: #0b0c2a;
+	background: #161727;
 }
 
 h1,
@@ -159,7 +159,7 @@ ol {
 .text-white span,
 .text-white li,
 .text-white a {
-	color: #fff;
+	color: #ffffff;
 }
 
 /* buttons */
@@ -326,9 +326,28 @@ ol {
   Header
 -----------------------*/
 
+.header__logo a.logo-text {
+    font-size: 32px;        /* tamaño general del logo */
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header__logo a.logo-text .magic {
+    font-family: 'Cursive', sans-serif; /* fuente distinta para Magic */
+    color: #ffffff;                     /* color blanco */
+}
+
+.header__logo a.logo-text .west {
+    font-family: 'Arial Black', sans-serif; /* fuente distinta para West */
+    color: #e53637;                         /* color rojo */
+}
+
+
+
 .header {
 	background: #070720;
 }
+
 
 .header__logo {
 	padding: 20px 0 17px;
@@ -457,7 +476,7 @@ ol {
 
 .hero__text .label {
 	font-size: 13px;
-	color: #e53637;
+	color: #ffffff;
 	background: #ffffff;
 	padding: 5px 14px 3px;
 	display: inline-block;
@@ -470,7 +489,7 @@ ol {
 }
 
 .hero__text h2 {
-	color: #ffffff;
+	color: #bd1212;
 	font-size: 42px;
 	font-family: "Oswald", sans-serif;
 	font-weight: 700;

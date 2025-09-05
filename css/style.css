@@ -675,6 +675,12 @@ ol {
 	position: relative;
 	border-radius: 5px;
 }
+.product__item__pic2 {
+	height: 325px;
+	width: 200px;
+	position: relative;
+	border-radius: 5px;
+}
 
 .product__item__pic .ep {
 	font-size: 13px;

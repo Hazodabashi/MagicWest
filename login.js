@@ -26,7 +26,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
     if (email === "admin@magicwest.cl" && password === "12345678Nn@") {
         setTimeout(() => {
-            window.location.href = "blog.html"; // redirige
+            window.location.href = "admin/backoffice/index_admin.html"; // redirige
         }, 1000); // espera 1 segundo
         return; // este return solo se ejecuta si entra al if
         }

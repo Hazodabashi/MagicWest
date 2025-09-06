@@ -1441,6 +1441,40 @@ ol {
   Blog Details
 -----------------------*/
 
+.product__details__tab {
+    background-color: rgba(255, 255, 255, 0.05) !important; 
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;   
+    border-radius: 10px !important;                        
+    padding: 20px !important;                             
+    margin-top: 20px !important;                         
+    color: white !important;                               
+}
+
+
+.product__details__tab .nav-tabs .nav-link {
+    color: white !important;
+    background-color: transparent !important;
+    border: none !important;
+    margin-right: 5px !important;
+}
+
+
+.product__details__tab .nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 5px !important;
+}
+
+
+.product__details__tab .tab-content {
+    margin-top: 15px;
+    color: white !important;
+}
+
+
+.product__details__tab .tab-content h5 {
+    color: white !important;
+}
+
 .blog-details {
 	padding-top: 70px;
 }
@@ -1470,6 +1504,12 @@ ol {
 	font-weight: 700;
 	line-height: 60px;
 	margin-bottom: 38px;
+}
+
+.review-date {
+    font-size: 12px;      /* más pequeño */
+    color: #aaaaaa;       /* gris claro */
+    margin-left: 5px;     /* un poquito de espacio */
 }
 
 .blog__details__title .blog__details__social a {
@@ -2364,4 +2404,9 @@ ol {
 	.anime__review__item__text {
 		padding: 18px 20px 20px;
 	}
+
+
+
+
+
 }

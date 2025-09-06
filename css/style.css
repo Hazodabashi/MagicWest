@@ -46,7 +46,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #111111;
+	color: #ffffff;
 	font-weight: 400;
 	font-family: "Mulish", sans-serif;
 }
@@ -78,7 +78,7 @@ h6 {
 p {
 	font-size: 15px;
 	font-family: "Mulish", sans-serif;
-	color: #3d3d3d;
+	color: #ffffff;
 	font-weight: 400;
 	line-height: 25px;
 	margin: 0 0 15px 0;

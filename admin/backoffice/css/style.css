@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 
 body{
-    color: #ffffff;
+    color: #898989;
 }
 :root {
     --primary: #8f291b;
@@ -20,7 +20,7 @@ body{
 
 
 .table{
-    color: #ffffff;
+    color: #898989;
 }
 .back-to-top {
     position: fixed;

@@ -1,11 +1,27 @@
 /********** Template CSS **********/
+
+body{
+    color: #ffffff;
+}
 :root {
-    --primary: #EB1616;
+    --primary: #8f291b;
     --secondary: #191C24;
-    --light: #6C7293;
-    --dark: #000000;
+    --light: #ffffff;
+    --dark: #161727;
+}
+.bootstrap-datetimepicker-widget table td.old,
+.bootstrap-datetimepicker-widget table td.new{
+    color: #ffffff;
 }
 
+.text-primary{
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.table{
+    color: #ffffff;
+}
 .back-to-top {
     position: fixed;
     display: none;
@@ -119,6 +135,9 @@
 
 
 /*** Navbar ***/
+
+
+
 .sidebar .navbar .navbar-nav .nav-link {
     padding: 7px 20px;
     color: var(--light);

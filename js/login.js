@@ -7,8 +7,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     let email = document.getElementById("email").value.trim();
     let password = document.getElementById("password").value.trim();
     let mensaje = document.getElementById("mensaje");
-
-    let regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let regexEmail = /^[A-Za-z0-9]+([._-][A-Za-z0-9]+)*@[A-Za-z0-9-]+.[A-Za-z]{2,10}$/;
     if (!regexEmail.test(email)) {
         mensaje.style.color = "red";
         mensaje.textContent = "Por favor, ingresa un correo válido.";
